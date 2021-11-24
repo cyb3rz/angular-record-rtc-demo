@@ -9,6 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./app.component.css'],
   changeDetection: ChangeDetectionStrategy.Default
 })
+
 export class AppComponent implements OnDestroy {
 
   @ViewChild('videoElement') videoElement: any;
